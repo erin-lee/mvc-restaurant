@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>Ruby on Rails: The Model-View-Controller Architecture</title>
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<!-- Erin added this -->
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
+	<!-- end of add -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+</head>
+
+<body>
+
+<div class="menu">	
+	<div class="container clearfix">
+<!-- 
+		<div id="logo" class="grid_3">
+			<img src="images/logo.png">
+		</div> -->
+		
+		<div id="nav" class="grid_9 omega">
+			<ul class="navigation">
+				<li data-slide="1">Intro</li>
+				<li data-slide="2">Model</li>
+				<li data-slide="3">View</li>
+				<li data-slide="4">Controller</li>
+			</ul>
+		</div>
+	
+	</div>
+</div>
+
+
+<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_12">
+			<section>
+			<h2>  
+				<div>
+					<span>Model</span> | 
+					<span>View</span> | 
+					<span>Controller</span>
+				</div>	
+				 </h2>
+				 <h1>Ruby on Rails:<h1> 
+			</section>
+			<h3>The RESTAURANT Analogy</h3>
+			<p>At the core of Rails is the Model, View, Controller architecture (MVC). <br>MVC benefits include:
+			<br>
+			<ul>
+			<li>Isolation of business logic from the user interface</li>
+			<li>Ease of keeping code DRY</li>
+			<li>Making it clear where different types of code belong for easier maintenance.
+			</li> 
+			</ul>
+			</div>	
+	</div>
+</div>
+
+
+
+<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_12">
+			<h1>Model</h1>
+			<h2>The Chef</h2>
+		</div>
+			<div class="grid_5"><br></div>
+			<div class="grid_7 omega"><p align="center"><span >The Chef receives orders from the waiter and creates the dish using various ingredients in the kitchen.</p></span><p align="center"><span >The model represents the information of the application and the rules to manipulate that information. </p></span>
+			
+			</div>
+	</div><br><br><br><br><br><br>
+</div>
+
+<br><br><br>
+
+<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		<div class="grid_9">
+			<h1>View</h1>
+			<h2>The Table</h2>			
+		</div>
+		<div class="grid_3">
+				<p><span>
+				The glorious tablespread of the restaurant patron's dinner. Or, the user interface of the application.</span>
+				</p>
+				<p><span>The views are often HTML files with embedded Ruby code that perform tasks related solely to the presentation of the data.</span> </p>
+		</div>
+	</div>
+	<br><br><br><br><br>
+</div>
+
+<br><br><br>
+
+<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+	<div class="container clearfix">
+		
+		<div id="content" class="grid_12">
+			<h1>Controller</h1>
+			<h2>The Waiter</h2>
+			</p> 
+		</div>
+		<div class="grid_8">
+			<p><span>The waiter takes the table's (user's) order, along with any special vegeterian or allergy requests, and brings it to the kitchen.</p></span> 
+			<p><span>The controllers are responsible for processing the incoming requests from the web browser, interrogating the models for data, and passing that data on to the views for presentation.</p></span>
+		</div>
+	</div>
+</div>
+<a href="https://github.com">
+<img style="position: absolute; top: 0; right: 0; border: 0; z-index: 999999999;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+</a>
+</body>
+</html>
